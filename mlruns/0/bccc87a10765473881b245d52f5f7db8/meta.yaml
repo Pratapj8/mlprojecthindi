@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/Downloads/Data_science_file/Krish_naik_Files_notes/PracticeProject/Mlproject/mlruns/0/bccc87a10765473881b245d52f5f7db8/artifacts
+end_time: 1743333754457
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bccc87a10765473881b245d52f5f7db8
+run_name: intelligent-shad-652
+run_uuid: bccc87a10765473881b245d52f5f7db8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743333750255
+status: 4
+tags: []
+user_id: apple

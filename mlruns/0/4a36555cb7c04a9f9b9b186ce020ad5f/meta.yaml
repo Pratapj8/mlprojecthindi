@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/Downloads/Data_science_file/Krish_naik_Files_notes/PracticeProject/Mlproject/mlruns/0/4a36555cb7c04a9f9b9b186ce020ad5f/artifacts
+end_time: 1743337495590
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4a36555cb7c04a9f9b9b186ce020ad5f
+run_name: amusing-ant-866
+run_uuid: 4a36555cb7c04a9f9b9b186ce020ad5f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743337491990
+status: 4
+tags: []
+user_id: apple

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/Downloads/Data_science_file/Krish_naik_Files_notes/PracticeProject/Mlproject/mlruns/0/3eafa6ef9747472ea5d01737b2239201/artifacts
+end_time: 1743345397030
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3eafa6ef9747472ea5d01737b2239201
+run_name: gregarious-seal-947
+run_uuid: 3eafa6ef9747472ea5d01737b2239201
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743345386865
+status: 3
+tags: []
+user_id: apple

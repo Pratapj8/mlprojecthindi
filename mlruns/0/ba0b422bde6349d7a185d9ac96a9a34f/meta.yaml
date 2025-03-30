@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/Downloads/Data_science_file/Krish_naik_Files_notes/PracticeProject/Mlproject/mlruns/0/ba0b422bde6349d7a185d9ac96a9a34f/artifacts
+end_time: 1743337322132
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ba0b422bde6349d7a185d9ac96a9a34f
+run_name: useful-chimp-366
+run_uuid: ba0b422bde6349d7a185d9ac96a9a34f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743337318977
+status: 4
+tags: []
+user_id: apple

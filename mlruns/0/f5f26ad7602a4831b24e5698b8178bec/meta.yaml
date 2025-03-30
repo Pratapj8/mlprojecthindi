@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/Downloads/Data_science_file/Krish_naik_Files_notes/PracticeProject/Mlproject/mlruns/0/f5f26ad7602a4831b24e5698b8178bec/artifacts
+end_time: 1743337929429
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f5f26ad7602a4831b24e5698b8178bec
+run_name: resilient-goat-901
+run_uuid: f5f26ad7602a4831b24e5698b8178bec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743337925959
+status: 4
+tags: []
+user_id: apple

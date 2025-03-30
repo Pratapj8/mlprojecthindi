@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/Downloads/Data_science_file/Krish_naik_Files_notes/PracticeProject/Mlproject/mlruns/0/7fd63cfca1f245a496ceb4d0781e5f1d/artifacts
+end_time: 1743336880910
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7fd63cfca1f245a496ceb4d0781e5f1d
+run_name: upset-mink-300
+run_uuid: 7fd63cfca1f245a496ceb4d0781e5f1d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743336877145
+status: 4
+tags: []
+user_id: apple
