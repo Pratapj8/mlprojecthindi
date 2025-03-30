@@ -1,6 +1,6 @@
 import os
 import sys
-from src.mlproject.exception import CustomeException
+from src.mlproject.exception import CustomException
 from src.mlproject.logger import logging
 import pandas as pd
 from src.mlproject.utils import read_csv_data  # Updated import
@@ -21,7 +21,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         try:
             # Reading data from CSV instead of MySQL
-            df = read_csv_data()  
+            df = read_csv_data(os.path.join("notebook/data", "data.csv"))  
             logging.info("Reading completed from CSV file")
 
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path), exist_ok=True)
@@ -44,4 +44,4 @@ class DataIngestion:
             )
 
         except Exception as e:
-            raise CustomeException(e, sys)
+            raise CustomException(e, sys)

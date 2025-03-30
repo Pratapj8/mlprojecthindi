@@ -1,9 +1,13 @@
 import os
 import sys
-from src.mlproject.exception import CustomeException
+from src.mlproject.exception import CustomException
 from src.mlproject.logger import logging
 import pandas as pd
 from dotenv import load_dotenv
+
+import pickle
+import numpy as np
+
 # import pymysql  # Commented out since we're not using MySQL now
 
 load_dotenv()
@@ -18,9 +22,10 @@ load_dotenv()
 # File path to the CSV
 file_path = "/Users/apple/Downloads/Data_science_file/Krish_naik_Files_notes/PracticeProject/stud.csv"
 
-def read_csv_data():
+def read_csv_data(file_path):
     """
     Function to read data from a CSV file.
+    :param file_path: Path to the CSV file.
     :return: DataFrame containing the CSV data.
     """
     logging.info("Reading data from CSV file started")
@@ -30,7 +35,8 @@ def read_csv_data():
         print(df.head())
         return df
     except Exception as ex:
-        raise CustomeException(ex, sys)
+        raise CustomException(ex, sys)
+
 
 # Commented out the MySQL part for now
 # def read_sql_data():
@@ -50,3 +56,14 @@ def read_csv_data():
 #         return df
 #     except Exception as ex:
 #         raise CustomeException(ex, sys)
+
+
+def save_object(file_path,obj):
+    try:
+        dir_path = os.path.dirname(file_path)
+        os.makedirs(dir_path, exist_ok=True)
+        with open(file_path, 'wb') as file_obj:
+            pickle.dump(obj, file_obj)
+        logging.info(f"Object saved at {file_path}")
+    except Exception as e:
+        raise CustomException(e, sys)
