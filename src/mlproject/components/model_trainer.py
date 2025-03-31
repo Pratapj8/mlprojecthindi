@@ -81,10 +81,28 @@ class ModelTrainer:
 
             model_report = evaluate_models(X_train, y_train, X_test, y_test, models, params)
             best_model_score = max(sorted(model_report.values()))
+            
+            ##TO get best model name from 
             best_model_name = list(model_report.keys())[
                 list(model_report.values()).index(best_model_score)
             ]
             best_model = models[best_model_name]
+            
+            print("This is the best model: ", best_model_name)
+            print("This is the best model score: ", best_model_score)
+            
+            model_names = list(params.keys())
+            
+            actual_model = ""
+            
+            for model in model_names:
+                if best_model_name == model:
+                    actual_model = actual_model + model 
+                    
+            best_params =params[actual_model]
+            
+            
+                    
 
             logging.info(f"Best model found: {best_model_name}")
             logging.info(f"Model performance: {best_model_score}")
@@ -92,7 +110,7 @@ class ModelTrainer:
             actual_model = best_model_name
             best_params = params[actual_model]
 
-            mlflow.set_registry_uri("https://dagshub.com/krishnaik06/mlprojecthindi.mlflow")
+            mlflow.set_registry_uri("https://dagshub.com/Pratapj8/mlprojecthindi")
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
             with mlflow.start_run():
@@ -115,6 +133,7 @@ class ModelTrainer:
                     mlflow.sklearn.log_model(best_model, "model", registered_model_name=actual_model)
                 else:
                     mlflow.sklearn.log_model(best_model, "model")
+                    
 
             if best_model_score < 0.6:
                 raise CustomException("No best model found")

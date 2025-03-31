@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/Downloads/Data_science_file/Krish_naik_Files_notes/PracticeProject/Mlproject/mlruns/0/b4d07a32285a410bba62b5c17f3a8b05/artifacts
+end_time: 1743381013124
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b4d07a32285a410bba62b5c17f3a8b05
+run_name: classy-cod-972
+run_uuid: b4d07a32285a410bba62b5c17f3a8b05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743381000939
+status: 3
+tags: []
+user_id: apple

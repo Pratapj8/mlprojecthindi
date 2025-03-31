@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/Downloads/Data_science_file/Krish_naik_Files_notes/PracticeProject/Mlproject/mlruns/0/d7894801f1b64a70a1aafa00457e3a24/artifacts
+end_time: 1743384227059
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d7894801f1b64a70a1aafa00457e3a24
+run_name: loud-lark-369
+run_uuid: d7894801f1b64a70a1aafa00457e3a24
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743384217660
+status: 3
+tags: []
+user_id: apple

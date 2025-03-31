@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/Downloads/Data_science_file/Krish_naik_Files_notes/PracticeProject/Mlproject/mlruns/0/67aa6c1499504f1980e31a21e1513c2e/artifacts
+end_time: 1743378875687
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 67aa6c1499504f1980e31a21e1513c2e
+run_name: dazzling-horse-714
+run_uuid: 67aa6c1499504f1980e31a21e1513c2e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743378862678
+status: 3
+tags: []
+user_id: apple
